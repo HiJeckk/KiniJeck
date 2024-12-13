@@ -1,0 +1,50 @@
+/* Style untuk navbar */
+.navbar {
+  width: 90%;
+  max-width: 1200px;
+  height: 103px;
+  background-color: #955530;
+  border-radius: 50px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+.navbar h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 24px;
+}
+
+/* Style untuk ikon dalam navbar */
+.navbar a {
+  color: white;
+  font-size: 22px; /* Ukuran ikon */
+  text-decoration: none;
+}
+
+/* Style untuk search bar */
+.navbar input[type="text"] {
+  width: 400px;  /* Ukuran lebar search bar */
+  height: 35px;  /* Ukuran tinggi search bar */
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  padding: 0 12px;
+}
+
+/* Style untuk teks lokasi */
+.location {
+  display: flex;
+  align-items: center;
+  margin-top: 20px; /* Memberikan jarak dari navbar */
+  font-size: 18px;
+  color: #333;
+  margin-left: 50px; /* Menggeser ke kanan */
+}
